@@ -1,0 +1,15 @@
+.area {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: -webkit-fill-available;
+}
+
+.sub-area {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+}
+
